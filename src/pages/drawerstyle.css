@@ -1,0 +1,75 @@
+.DrawerContainer{
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.leftDrawer{
+flex: 4;
+border: 1px solid rgb(193, 33, 33);
+}
+.rightDrawer{
+    border: 1px solid rgb(73, 193, 33);
+    flex: 8;
+    display: flex;
+}
+.list{
+    width: 50%;
+   justify-self: auto;
+   align-items: center;
+ margin: 10px;
+ font-size: large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+.cardinfo{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    font-size: large;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ padding-top: 40px;
+
+ 
+}
+.info{
+    background: rgb(230, 228, 228);
+    height: 100%;
+    width: 100%;
+}
+.card1{
+    margin: 10px;
+}
+.card2{
+    margin: 10px;
+}
+.item{
+    cursor:pointer;
+}
+.detailleft1{
+    flex: 6;
+}
+.detailleft2{
+    flex: 6;
+ 
+  animation: fadeIn 3s ease-in;
+}
+@keyframes fadeIn {  
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+ }
+
+.aboutlist{
+    width: 50%;
+    justify-self: auto;
+    align-items: center;
+  margin: 10px;
+  font-size: large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
